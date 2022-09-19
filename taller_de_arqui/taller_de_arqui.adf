@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=taller_de_arqui
+[Library]
+taller_de_arqui=.\taller_de_arqui\taller_de_arqui.lib
+[$LibMap$]
+taller_de_arqui=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/ejercicio1.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/test_bench_and2.vhd=-1
+/and2.vhd=-1
+/DFF.vhd=-1
+/Test_DFF.vhd=-1
+/waveform_dff.asdb=-1
+/waveform_dff.awc=-1
+/Latch8.vhd=-1
+/Test_latch8.vhd=-1
+/pruebas.vhd=-1
+[Files.Data]
+.\src\ejercicio1.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\test_bench_and2.vhd=VHDL Source Code
+.\src\and2.vhd=VHDL Source Code
+.\src\DFF.vhd=VHDL Source Code
+.\src\Test_DFF.vhd=VHDL Source Code
+.\src\waveform_dff.asdb=Accelerated Waveform File
+.\src\waveform_dff.awc=Accelerated Waveform Configuration
+.\src\Latch8.vhd=VHDL Source Code
+.\src\Test_latch8.vhd=VHDL Source Code
+.\src\pruebas.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=ejercicio1|ejercicio1|0 test_dff|Driver|0 test_latch8|Driver|0
+ShowHide=ShowTopLevel
+Selected=

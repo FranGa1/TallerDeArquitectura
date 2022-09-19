@@ -1,0 +1,350 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Test_DFF Test_DFF Driver
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6393 kB (elbread=427 elab2=5832 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:47 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+run 50 ns
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/Test_DFF/Preset}
+# add wave -noreg {/Test_DFF/Clear}
+# add wave -noreg {/Test_DFF/Clock}
+# add wave -noreg {/Test_DFF/Data}
+# add wave -noreg {/Test_DFF/Q}
+# add wave -noreg {/Test_DFF/QBar}
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 50 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Test_latch8 Test_latch8 Driver
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:47 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+run 50 ns
+# KERNEL: stopped at time: 50 ns
+# add wave -noreg {/Test_latch8/D}
+# add wave -noreg {/Test_latch8/Q}
+# add wave -noreg {/Test_latch8/Clk}
+# add wave -noreg {/Test_latch8/Pre}
+# add wave -noreg {/Test_latch8/Clr}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:48 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 50 ns
+# KERNEL: stopped at time: 50 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:48 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:50 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:50 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 100 ns
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Test_latch8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# Error: COMP96_0015: Test_latch8.vhd : (52, 28): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:50 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Test_latch8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# Error: COMP96_0015: Test_latch8.vhd : (52, 28): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Test_latch8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  11:51 AM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 100 ns
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Test_latch8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  12:47 PM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 100 ns
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Test_latch8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6401 kB (elbread=427 elab2=5838 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\taller_de_arqui\taller_de_arqui\src\wave.asdb
+#  12:47 PM, Friday, September 16, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/taller_de_arqui/taller_de_arqui/src/wave.asdb'.
+run 100 ns
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# EXECUTION:: ERROR  : Load Failed
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Test_latch8,  Process: Stimulus.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

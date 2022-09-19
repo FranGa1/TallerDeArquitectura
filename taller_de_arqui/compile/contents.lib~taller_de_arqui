@@ -1,0 +1,15 @@
+61
+~E 1 "../src/and2.vhd" 27 and2
+~A 1 "../src/and2.vhd" 36 rtl
+~E 1 "../src/p2_ej1.vhd" 27 DFF
+~A 1 "../src/DFF.vhd" 31 flujodedatos
+~E 1 "../src/ejercicio1.vhd" 27 ejercicio1
+~A 1 "../src/Test_DFF.vhd" 64 ejercicio1
+~E 1 "../src/Latch8.vhd" 27 Latch8
+~A 1 "../src/Latch8.vhd" 31 Estructura
+~E 1 "../src/test_bench_and2.vhd" 27 test_bench_and2
+~A 1 "../src/test_bench_and2.vhd" 31 test
+~E 1 "../src/Test_DFF.vhd" 27 Test_DFF
+~A 1 "../src/Test_DFF.vhd" 29 Driver
+~E 1 "../src/Test_latch8.vhd" 27 Test_latch8
+~A 1 "../src/Test_latch8.vhd" 29 Driver

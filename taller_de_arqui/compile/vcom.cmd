@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/taller_de_arqui/taller_de_arqui/compile/taller_de_arqui.erf -d C:/My_Designs/taller_de_arqui/taller_de_arqui/compile -s C:/My_Designs/taller_de_arqui/library.cfg -j C:/My_Designs/taller_de_arqui/taller_de_arqui/projlib.cfg -work taller_de_arqui -O3 -e 100 -work taller_de_arqui -2002 C:/My_Designs/taller_de_arqui/taller_de_arqui/src/Test_latch8.vhd 
