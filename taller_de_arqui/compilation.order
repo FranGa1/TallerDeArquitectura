@@ -6,3 +6,4 @@
 .\src\Latch8.vhd
 .\src\Test_latch8.vhd
 .\src\pruebas.vhd
+.\src\Demora.vhd

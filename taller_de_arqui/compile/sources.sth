@@ -1,6 +1,6 @@
 [Files List]
 C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
-C:\My_Designs\taller_de_arqui\taller_de_arqui/src/p2_ej1.vhd=S
-C:\My_Designs\taller_de_arqui\taller_de_arqui/src/DFF.vhd=S
-C:\My_Designs\taller_de_arqui\taller_de_arqui/src/Latch8.vhd=S
-C:\My_Designs\taller_de_arqui\taller_de_arqui/src/Test_latch8.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/Demora.vhd=S
