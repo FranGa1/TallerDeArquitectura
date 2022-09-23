@@ -7,9 +7,9 @@ end entity Demora;
 architecture Ejemplo of Demora is
    signal A, B, C : std_logic:='0';
 begin
-   A <= '0', '1' after 5 ns, '0' after 14 ns, '1' after 25 ns, '0' after 30 ns;
+   A <= '0', '1' after 5 ns, '0' after 15 ns, '1' after 25 ns, '0' after 30 ns;
    B <= transport A after 10 ns;
-   C <= reject 9 ns inertial A after 10 ns;
+   C <= reject 10 ns inertial A after 10 ns;
 end architecture Ejemplo; -- Entity: Demora	 
 	
 -- El tiempo de reject de C no puede ser mayor a 10ns porque este es el retardo

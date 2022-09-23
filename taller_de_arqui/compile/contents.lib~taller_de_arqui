@@ -1,4 +1,4 @@
-64
+115
 ~E 1 "../src/and2.vhd" 27 and2
 ~A 1 "../src/and2.vhd" 36 rtl
 ~E 1 "../src/Demora.vhd" 4 Demora
