@@ -30,6 +30,9 @@ FAMILY=
 /Test_latch8.vhd=-1
 /pruebas.vhd=-1
 /Demora.vhd=-1
+/Adder8.vhd=-1
+/FullAdder.vhd=-1
+/Test_Adder8.vhd=-1
 [Files.Data]
 .\src\ejercicio1.vhd=VHDL Source Code
 .\src\untitled.asdb=Accelerated Waveform File
@@ -44,7 +47,12 @@ FAMILY=
 .\src\Test_latch8.vhd=VHDL Source Code
 .\src\pruebas.vhd=VHDL Source Code
 .\src\Demora.vhd=VHDL Source Code
+.\src\Adder8.vhd=VHDL Source Code
+.\src\FullAdder.vhd=VHDL Source Code
+.\src\Test_Adder8.vhd=VHDL Source Code
 [HierarchyViewer]
 HierarchyInformation=ejercicio1|ejercicio1|0 test_dff|Driver|0 test_latch8|Driver|0
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+test_benchs=1

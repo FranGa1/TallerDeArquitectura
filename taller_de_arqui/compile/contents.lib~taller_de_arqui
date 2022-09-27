@@ -1,4 +1,6 @@
-115
+128
+~E 1 "../src/Adder8.vhd" 27 Adder8
+~A 1 "../src/Adder8.vhd" 31 Estructura
 ~E 1 "../src/and2.vhd" 27 and2
 ~A 1 "../src/and2.vhd" 36 rtl
 ~E 1 "../src/Demora.vhd" 4 Demora
@@ -7,10 +9,14 @@
 ~A 1 "../src/DFF.vhd" 31 flujodedatos
 ~E 1 "../src/ejercicio1.vhd" 27 ejercicio1
 ~A 1 "../src/ejercicio1.vhd" 33 ejercicio1
+~E 1 "../src/FullAdder.vhd" 27 FullAdder
+~A 1 "../src/FullAdder.vhd" 31 ecuacion
 ~E 1 "../src/Latch8.vhd" 27 Latch8
 ~A 1 "../src/Latch8.vhd" 31 Estructura
 ~E 1 "../src/pruebas.vhd" 27 pruebas
 ~A 1 "../src/pruebas.vhd" 32 pruebas
+~E 1 "../src/Test_Adder8.vhd" 27 Test_Adder8
+~A 1 "../src/Test_Adder8.vhd" 29 Driver
 ~E 1 "../src/test_bench_and2.vhd" 27 test_bench_and2
 ~A 1 "../src/test_bench_and2.vhd" 31 test
 ~E 1 "../src/Test_DFF.vhd" 27 Test_DFF

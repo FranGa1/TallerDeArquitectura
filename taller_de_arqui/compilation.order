@@ -7,3 +7,6 @@
 .\src\Test_latch8.vhd
 .\src\pruebas.vhd
 .\src\Demora.vhd
+.\src\Adder8.vhd
+.\src\FullAdder.vhd
+.\src\Test_Adder8.vhd
