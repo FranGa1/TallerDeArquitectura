@@ -10,3 +10,4 @@
 .\src\Adder8.vhd
 .\src\FullAdder.vhd
 .\src\Test_Adder8.vhd
+.\src\test_fulladder.vhd

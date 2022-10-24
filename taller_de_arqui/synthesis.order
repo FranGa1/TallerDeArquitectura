@@ -10,3 +10,4 @@ i<>.\src\Demora.vhd
 i<>.\src\Adder8.vhd
 i<>.\src\FullAdder.vhd
 i<>.\src\Test_Adder8.vhd
+i<>.\src\test_fulladder.vhd

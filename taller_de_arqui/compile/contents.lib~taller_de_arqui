@@ -1,4 +1,4 @@
-128
+155
 ~E 1 "../src/Adder8.vhd" 27 Adder8
 ~A 1 "../src/Adder8.vhd" 31 Estructura
 ~E 1 "../src/and2.vhd" 27 and2
@@ -21,5 +21,7 @@
 ~A 1 "../src/test_bench_and2.vhd" 31 test
 ~E 1 "../src/Test_DFF.vhd" 27 Test_DFF
 ~A 1 "../src/Test_DFF.vhd" 29 Driver
+~E 1 "../src/test_fulladder.vhd" 26 test_fulladder
+~A 1 "../src/test_fulladder.vhd" 29 driver
 ~E 1 "../src/Test_latch8.vhd" 27 Test_latch8
 ~A 1 "../src/Test_latch8.vhd" 29 Driver
