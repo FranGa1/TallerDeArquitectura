@@ -1,4 +1,5 @@
 [Files List]
 C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
-C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/FullAdder.vhd=S
-C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/test_fulladder.vhd=S
+C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/Controller.vhd=S
+C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/Test_Controller.vhd=S
+C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui/src/test_benchs/Test_Controller.vhd=S

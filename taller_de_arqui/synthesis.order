@@ -11,3 +11,7 @@ i<>.\src\Adder8.vhd
 i<>.\src\FullAdder.vhd
 i<>.\src\Test_Adder8.vhd
 i<>.\src\test_fulladder.vhd
+i<>.\src\ShiftN.vhd
+i<>.\src\Test_ShiftN.vhd
+i<>.\src\Controller.vhd
+i<>.\src\Test_Controller.vhd

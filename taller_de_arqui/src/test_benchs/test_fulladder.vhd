@@ -54,7 +54,7 @@ begin
 	 X <= Tabla(i).X;
 	 Y <= Tabla(i).Y;
 	 Cin <= Tabla(i).Cin;
-	 wait for 1 ps;
+	 wait for 1 ns;
 	 assert
 	  Cout = Tabla(i).Cout and
 	  Sum = Tabla(i).Sum;
