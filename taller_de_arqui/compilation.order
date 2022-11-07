@@ -8,6 +8,7 @@
 .\src\Controller.vhd
 .\src\Utils.vhd
 .\src\Multiplicador4.vhd
+.\src\test_benches\Test_Multiplicador4.vhd
 .\src\test_benches\Test_Utils.vhd
 .\src\test_benches\Test_Controller.vhd
 .\src\test_benches\Test_ShiftN.vhd

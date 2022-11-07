@@ -1,4 +1,4 @@
-194
+295
 ~E 1 "../src/Adder8.vhd" 27 Adder8
 ~A 1 "../src/Adder8.vhd" 31 Estructura
 ~E 1 "../src/and2.vhd" 27 and2
@@ -15,8 +15,8 @@
 ~A 1 "../src/FullAdder.vhd" 31 ecuacion
 ~E 1 "../src/Latch8.vhd" 27 Latch8
 ~A 1 "../src/Latch8.vhd" 31 Estructura
-~E 1 "../src/Multiplicador4.vhd" 27 Multiplicador4
-~A 1 "../src/Multiplicador4.vhd" 33 Multiplicador4
+~E 1 "../src/Multiplicador4.vhd" 21 Multiplicador4
+~A 1 "../src/Multiplicador4.vhd" 27 Multiplicador4
 ~E 1 "../src/pruebas.vhd" 27 pruebas
 ~A 1 "../src/test_benches/pruebas.vhd" 32 pruebas
 ~E 1 "../src/ShiftN.vhd" 27 ShiftN
@@ -33,6 +33,8 @@
 ~A 1 "../src/test_benches/test_fulladder.vhd" 29 driver
 ~E 1 "../src/Test_latch8.vhd" 27 Test_latch8
 ~A 1 "../src/test_benches/Test_latch8.vhd" 29 Driver
+~E 1 "../src/test_benches/Test_Multiplicador4.vhd" 28 Test_Multiplicador4
+~A 1 "../src/test_benches/Test_Multiplicador4.vhd" 33 Test_Multiplicador4
 ~E 1 "../src/test_benchs/Test_ShiftN.vhd" 26 Test_ShiftN
 ~A 1 "../src/test_benches/Test_ShiftN.vhd" 28 Driver
 ~E 1 "../src/Test_Utils.vhd" 26 Test_Utils
