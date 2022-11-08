@@ -45,7 +45,7 @@ begin
 	Stimulus: process					  
 	begin	  		
 		A <= "0111";  -- A = 7
-		B <= "0001" ; -- B = 1					
+		B <= "0001" ; -- B = 1				  
 		STB <= '1', '0' after 25ns;
 		wait for 500ns;
 		wait;

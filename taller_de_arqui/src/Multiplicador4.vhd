@@ -63,7 +63,8 @@ begin
 					
 	not_CLK <= not CLK;	   
 	FSM_Controller: Controller port map (STB => STB, CLK => not_CLK, LSB => LSB, Stop => STOP, Init => Init, Shift => Shift, Add => Add, Done => Done_in);
-
-	FFD_for_done_delay: DFF port map (Preset => '1', Clear => not_Init, Clock => Done_in, Data => '1', Q => Done, Qbar => dont_care);
+	Done <= Done_in after 2ns;
+	
+	--FFD_for_done_delay: DFF port map (Preset => '1', Clear => not_Init, Clock => Done_in, Data => '1', Q => Done, Qbar => dont_care);
 
 end Multiplicador4;
