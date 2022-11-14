@@ -61,7 +61,7 @@ test_benches/pruebas.vhd=-1
 .\src\test_benches\ejercicio1.vhd=VHDL Source Code
 .\src\test_benches\pruebas.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=multiplicador4|Multiplicador4|0 test_multiplicador4|Test_Multiplicador4|0 test_utils|Driver|0
+HierarchyInformation=multiplicador4|Multiplicador4|0 test_multiplicador4|Test_Multiplicador4|0
 ShowHide=ShowTopLevel
 Selected=
 [Groups]

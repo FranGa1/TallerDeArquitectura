@@ -1333,4 +1333,412 @@ restart
 # KERNEL: Kernel process initialization phase.
 # ELAB2: Elaboration final pass...
 # ELAB2: Create instances ...
-# KERNEL: Time resolution set 
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=428 elab2=5861 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  5:19 PM, Monday, November 7, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=428 elab2=5861 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  5:20 PM, Monday, November 7, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0122: Multiplicador4.vhd : (70, 2): Symbol "CLK" has already been declared in this scope.
+# Error: COMP96_0078: Multiplicador4.vhd : (70, 7): Unknown identifier "Clock".
+# Error: COMP96_0066: Multiplicador4.vhd : (70, 7): Cannot find "Clock" procedure declaration.
+# Error: COMP96_0143: Multiplicador4.vhd : (74, 3): Object "A" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (75, 3): Object "B" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (76, 3): Object "STB" cannot be written.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0078: Multiplicador4.vhd : (70, 2): Unknown identifier "Clock".
+# Error: COMP96_0066: Multiplicador4.vhd : (70, 2): Cannot find "Clock" procedure declaration.
+# Error: COMP96_0143: Multiplicador4.vhd : (72, 2): Object "CLK" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (75, 3): Object "A" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (76, 3): Object "B" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (77, 3): Object "STB" cannot be written.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [ms]
+run 1000 ns
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0143: Multiplicador4.vhd : (74, 2): Object "CLK" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (77, 3): Object "A" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (78, 3): Object "B" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (79, 3): Object "STB" cannot be written.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0143: Multiplicador4.vhd : (77, 3): Object "A" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (78, 3): Object "B" cannot be written.
+# Error: COMP96_0143: Multiplicador4.vhd : (79, 3): Object "STB" cannot be written.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0078: Multiplicador4.vhd : (53, 91): Unknown identifier "A".
+# Error: COMP96_0078: Multiplicador4.vhd : (54, 91): Unknown identifier "B".
+# Error: COMP96_0078: Multiplicador4.vhd : (67, 46): Unknown identifier "STB".
+# Error: COMP96_0078: Multiplicador4.vhd : (77, 3): Unknown identifier "A".
+# Error: COMP96_0133: Multiplicador4.vhd : (77, 3): Cannot find object declaration.
+# Error: COMP96_0078: Multiplicador4.vhd : (78, 3): Unknown identifier "B".
+# Error: COMP96_0133: Multiplicador4.vhd : (78, 3): Cannot find object declaration.
+# Error: COMP96_0078: Multiplicador4.vhd : (79, 3): Unknown identifier "STB".
+# Error: COMP96_0133: Multiplicador4.vhd : (79, 3): Cannot find object declaration.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/and2.vhd $dsn/src/DFF.vhd $dsn/src/Latch8.vhd $dsn/src/Demora.vhd $dsn/src/Adder8.vhd $dsn/src/FullAdder.vhd $dsn/src/ShiftN.vhd $dsn/src/Controller.vhd $dsn/src/Utils.vhd $dsn/src/Multiplicador4.vhd $dsn/src/test_benches/Test_Multiplicador4.vhd $dsn/src/test_benches/Test_Utils.vhd $dsn/src/test_benches/Test_Controller.vhd $dsn/src/test_benches/Test_ShiftN.vhd $dsn/src/test_benches/test_fulladder.vhd $dsn/src/test_benches/Test_latch8.vhd $dsn/src/test_benches/test_bench_and2.vhd $dsn/src/test_benches/Test_DFF.vhd $dsn/src/test_benches/Test_Adder8.vhd $dsn/src/test_benches/ejercicio1.vhd $dsn/src/test_benches/pruebas.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/and2.vhd
+# Compile Entity "and2"
+# Compile Architecture "rtl" of Entity "and2"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/DFF.vhd
+# Compile Entity "DFF"
+# Compile Architecture "flujodedatos" of Entity "DFF"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Latch8.vhd
+# Compile Entity "Latch8"
+# Compile Architecture "Estructura" of Entity "Latch8"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Demora.vhd
+# Compile Entity "Demora"
+# Compile Architecture "Ejemplo" of Entity "Demora"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Adder8.vhd
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/ShiftN.vhd
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Utils.vhd
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Error: COMP96_0078: Multiplicador4.vhd : (55, 32): Unknown identifier "CLK".
+# Error: COMP96_0078: Multiplicador4.vhd : (56, 32): Unknown identifier "CLK".
+# Error: COMP96_0078: Multiplicador4.vhd : (68, 17): Unknown identifier "CLK".
+# Error: COMP96_0133: Multiplicador4.vhd : (68, 17): Cannot find object declaration.
+# Error: COMP96_0077: Multiplicador4.vhd : (68, 13): Undefined type of expression. Expected type 'BIT'.
+# Error: COMP96_0078: Multiplicador4.vhd : (76, 2): Unknown identifier "CLK".
+# Error: COMP96_0133: Multiplicador4.vhd : (76, 2): Cannot find object declaration.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Multiplicador4.vhd
+# Compile Entity "Test_Multiplicador4"
+# Compile Architecture "Test_Multiplicador4" of Entity "Test_Multiplicador4"
+# Warning: ELAB1_0026: test_benches/Test_Multiplicador4.vhd : (43, 0): There is no default binding for component "Multiplicador4". (Port "A" is not on the entity).
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Utils.vhd
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Controller.vhd
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_ShiftN.vhd
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/test_fulladder.vhd
+# Compile Entity "test_fulladder"
+# Compile Architecture "driver" of Entity "test_fulladder"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_latch8.vhd
+# Compile Entity "Test_latch8"
+# Compile Architecture "Driver" of Entity "Test_latch8"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/test_bench_and2.vhd
+# Compile Entity "test_bench_and2"
+# Compile Architecture "test" of Entity "test_bench_and2"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_DFF.vhd
+# Compile Entity "Test_DFF"
+# Compile Architecture "Driver" of Entity "Test_DFF"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Adder8.vhd
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/ejercicio1.vhd
+# Compile Entity "ejercicio1"
+# Compile Architecture "ejercicio1" of Entity "ejercicio1"
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/pruebas.vhd
+# Compile Entity "pruebas"
+# Compile Architecture "pruebas" of Entity "pruebas"
+# Compile failure 7 Errors 1 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Multiplicador4 Multiplicador4 Multiplicador4
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5861 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  11:43 PM, Monday, November 7, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/A not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/B not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/STB not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/Done not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/C not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Test_Multiplicador4/Result not found in C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# add wave -noreg {/Multiplicador4/A_shifted}
+# add wave -noreg {/Multiplicador4/B_shifted}
+# add wave -noreg {/Multiplicador4/Result_adder}
+# add wave -noreg {/Multiplicador4/Result_ACC}
+# add wave -noreg {/Multiplicador4/STOP}
+# add wave -noreg {/Multiplicador4/LSB}
+# add wave -noreg {/Multiplicador4/Carrys}
+# add wave -noreg {/Multiplicador4/Shift}
+# add wave -noreg {/Multiplicador4/Add}
+# add wave -noreg {/Multiplicador4/Init}
+# add wave -noreg {/Multiplicador4/not_Init}
+# add wave -noreg {/Multiplicador4/Done_in}
+# add wave -noreg {/Multiplicador4/not_CLK}
+# add wave -noreg {/Multiplicador4/dont_care}
+# add wave -noreg {/Multiplicador4/A}
+# add wave -noreg {/Multiplicador4/B}
+# add wave -noreg {/Multiplicador4/STB}
+# add wave -noreg {/Multiplicador4/C}
+# add wave -noreg {/Multiplicador4/CLK}
+# add wave -noreg {/Multiplicador4/Aa}
+# add wave -noreg {/Multiplicador4/Bb}
+# add wave -noreg {/Multiplicador4/STBb}
+# add wave -noreg {/Multiplicador4/CLKa}
+# add wave -noreg {/Multiplicador4/Done}
+# add wave -noreg {/Multiplicador4/Result}
+# VSIM: 25 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5861 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  11:44 PM, Monday, November 7, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+asim -O5 +access +r +m+Test_Multiplicador4 Test_Multiplicador4 Test_Multiplicador4
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/test_benches/Test_Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Multiplicador4.vhd
+# Compile Entity "Test_Multiplicador4"
+# Compile Architecture "Test_Multiplicador4" of Entity "Test_Multiplicador4"
+# Warning: ELAB1_0026: test_benches/Test_Multiplicador4.vhd : (43, 0): There is no default binding for component "Multiplicador4". (Port "A" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 Test_Multiplicador4.vhd (43): Component /Test_Multiplicador4/UUT : Multiplicador4 not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  12:39 AM, Tuesday, November 8, 2022
+#  Simulation has been initialized
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# add wave -noreg {/Test_Multiplicador4/A}
+# add wave -noreg {/Test_Multiplicador4/B}
+# add wave -noreg {/Test_Multiplicador4/STB}
+# add wave -noreg {/Test_Multiplicador4/Done}
+# add wave -noreg {/Test_Multiplicador4/C}
+# add wave -noreg {/Test_Multiplicador4/Result}
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 Test_Multiplicador4.vhd (43): Component /Test_Multiplicador4/UUT : Multiplicador4 not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  12:39 AM, Tuesday, November 8, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/test_benches/Test_Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/test_benches/Test_Multiplicador4.vhd
+# Compile Entity "Test_Multiplicador4"
+# Compile Architecture "Test_Multiplicador4" of Entity "Test_Multiplicador4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=428 elab2=5861 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  12:40 AM, Tuesday, November 8, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+acom -O3 -e 100 -work taller_de_arqui -2002  $dsn/src/Multiplicador4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/Multiplicador4.vhd
+# Compile Entity "Multiplicador4"
+# Compile Architecture "Multiplicador4" of Entity "Multiplicador4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5860 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\franc\Desktop\TallerDeArquitectura\taller_de_arqui\src\wave.asdb
+#  12:42 AM, Tuesday, November 8, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/franc/Desktop/TallerDeArquitectura/taller_de_arqui/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
